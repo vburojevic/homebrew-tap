@@ -5,21 +5,21 @@
 class Xcw < Formula
   desc "Tail iOS Simulator logs for AI agents"
   homepage "https://github.com/vburojevic/xcw"
-  version "0.17.1"
+  version "0.18.0"
   license "MIT"
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://github.com/vburojevic/xcw/releases/download/v0.17.1/xcw_0.17.1_darwin_amd64.tar.gz"
-    sha256 "abf0b2378cfc25890fb71451fbcb99c6507a33dbb9fe9325bd3cfe3af9cfc4ae"
+    url "https://github.com/vburojevic/xcw/releases/download/v0.18.0/xcw_0.18.0_darwin_amd64.tar.gz"
+    sha256 "759aa4a8de4716f425b4ac059a0294f3173211c6474a7922eea9478cc0aa34cb"
 
     def install
       bin.install "xcw"
     end
   end
   if Hardware::CPU.arm?
-    url "https://github.com/vburojevic/xcw/releases/download/v0.17.1/xcw_0.17.1_darwin_arm64.tar.gz"
-    sha256 "fe99cc20ab742e7589372ef51efb7e887a0f182d532d4d26e1507b8683dcbfbe"
+    url "https://github.com/vburojevic/xcw/releases/download/v0.18.0/xcw_0.18.0_darwin_arm64.tar.gz"
+    sha256 "f36398b93f0fbbb8e7ba1347c03dc53f4dc16aefad07d5322ddaff7df24e13a6"
 
     def install
       bin.install "xcw"
