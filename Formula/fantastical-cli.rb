@@ -5,21 +5,21 @@
 class FantasticalCli < Formula
   desc "CLI for Fantastical URL handler and AppleScript"
   homepage "https://github.com/vburojevic/fantastical-cli"
-  version "0.1.7"
+  version "0.1.8"
   license "MIT"
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://github.com/vburojevic/fantastical-cli/releases/download/v0.1.7/fantastical_0.1.7_darwin_amd64.tar.gz"
-    sha256 "f8bc2e5b9148ebcf46637873c03310e29a06df5946985f91bfec2d29f59205e0"
+    url "https://github.com/vburojevic/fantastical-cli/releases/download/v0.1.8/fantastical_0.1.8_darwin_amd64.tar.gz"
+    sha256 "6606fd5c17a9097bd339c87409fccd6cd261e1b53763ebcbfb17347a804d87ec"
 
     def install
       bin.install "fantastical"
     end
   end
   if Hardware::CPU.arm?
-    url "https://github.com/vburojevic/fantastical-cli/releases/download/v0.1.7/fantastical_0.1.7_darwin_arm64.tar.gz"
-    sha256 "cd872d94017306022c5e766ed36c2a3e2b1989777e63bb35c08f52976760692f"
+    url "https://github.com/vburojevic/fantastical-cli/releases/download/v0.1.8/fantastical_0.1.8_darwin_arm64.tar.gz"
+    sha256 "1d4b86110c959edfd10b28d114460f5b4bcf8bd47e9ab1af85368accc68cb7dd"
 
     def install
       bin.install "fantastical"
