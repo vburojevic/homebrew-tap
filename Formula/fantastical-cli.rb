@@ -11,7 +11,7 @@ class FantasticalCli < Formula
 
   if Hardware::CPU.intel?
     url "https://github.com/vburojevic/fantastical-cli/releases/download/v0.1.11/fantastical_0.1.11_darwin_amd64.tar.gz"
-    sha256 "a8cd31872b57d5a04296f7a812379dd23e129549181520fc7b83b0a9205b4f92"
+    sha256 "5c86c901749d79ad7a361654775c6b03c6ccabf07ea4eddb5de2334018ae1bd2"
 
     def install
       bin.install "fantastical"
@@ -19,7 +19,7 @@ class FantasticalCli < Formula
   end
   if Hardware::CPU.arm?
     url "https://github.com/vburojevic/fantastical-cli/releases/download/v0.1.11/fantastical_0.1.11_darwin_arm64.tar.gz"
-    sha256 "151c1a23a681210455cd425677a19ec39a5690b432d31b4970df2368f2899032"
+    sha256 "e9e53886f2d70be51b23b0aba7fc4c331f2a5d201618ec33025769557ae407e1"
 
     def install
       bin.install "fantastical"
