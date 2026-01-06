@@ -12,9 +12,9 @@ class Xcbolt < Formula
     bin.install ".build/release/xcbolt"
 
     # Shell completions (swift-argument-parser)
-    bash_completion.write Utils.safe_popen_read(bin/"xcbolt", "--generate-completion-script", "bash")
-    zsh_completion.write Utils.safe_popen_read(bin/"xcbolt", "--generate-completion-script", "zsh")
-    fish_completion.write Utils.safe_popen_read(bin/"xcbolt", "--generate-completion-script", "fish")
+    (bash_completion/"xcbolt").write Utils.safe_popen_read(bin/"xcbolt", "--generate-completion-script", "bash")
+    (zsh_completion/"_xcbolt").write Utils.safe_popen_read(bin/"xcbolt", "--generate-completion-script", "zsh")
+    (fish_completion/"xcbolt.fish").write Utils.safe_popen_read(bin/"xcbolt", "--generate-completion-script", "fish")
   end
 
   test do
