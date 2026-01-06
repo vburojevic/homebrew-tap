@@ -1,8 +1,8 @@
 class Xcbolt < Formula
   desc "Modern Xcode CLI + TUI for build/run/test with Simulator + device workflows"
   homepage "https://github.com/vburojevic/xcbolt"
-  url "https://github.com/vburojevic/xcbolt/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "7a603d7eabb3fb7cc69faaa031736ab2dba72adade08563c52bfa7dc52478878"
+  url "https://github.com/vburojevic/xcbolt/archive/refs/tags/v0.2.2.tar.gz"
+  sha256 "afe04c734c5a15714934e4dcae8c5c7de4ea7dcf89318c6ff179e1fcac071628"
   license "MIT"
 
   depends_on "swift" => :build
