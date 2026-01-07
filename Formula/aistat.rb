@@ -5,20 +5,20 @@
 class Aistat < Formula
   desc "List active Claude Code and Codex sessions with real-time statuses"
   homepage "https://github.com/vburojevic/aistat"
-  version "0.1.18"
+  version "0.1.19"
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://github.com/vburojevic/aistat/releases/download/v0.1.18/aistat_0.1.18_darwin_amd64.tar.gz"
-    sha256 "ef0dd9c803737b95143bad30ec4f9cb7e70ef8341fba625d7f4a998566ce227d"
+    url "https://github.com/vburojevic/aistat/releases/download/v0.1.19/aistat_0.1.19_darwin_amd64.tar.gz"
+    sha256 "d4f04520770bab15c1632f4bc5fc4f8f3d6492f46e5a5d7bfe0380e02c741fd8"
 
     def install
       bin.install "aistat"
     end
   end
   if Hardware::CPU.arm?
-    url "https://github.com/vburojevic/aistat/releases/download/v0.1.18/aistat_0.1.18_darwin_arm64.tar.gz"
-    sha256 "22f67af26b6ba328cfebca8d087184dd8fbec34bd2939cb792a966bb049a1e44"
+    url "https://github.com/vburojevic/aistat/releases/download/v0.1.19/aistat_0.1.19_darwin_arm64.tar.gz"
+    sha256 "bce78eea253bfddd89a1d8f53915758a8655e75201dad6b4745d7d811d46de5e"
 
     def install
       bin.install "aistat"
