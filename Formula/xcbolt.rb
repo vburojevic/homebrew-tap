@@ -5,21 +5,21 @@
 class Xcbolt < Formula
   desc "Modern Xcode CLI + TUI"
   homepage "https://github.com/vburojevic/xcbolt"
-  version "0.1.41"
+  version "0.1.42"
   license "MIT"
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://github.com/vburojevic/xcbolt/releases/download/v0.1.41/xcbolt_0.1.41_darwin_amd64.tar.gz"
-    sha256 "6877e0d52e5dfb7a0b5fde78a317cfd9b88ed25e3103d8e50c250e65263fb562"
+    url "https://github.com/vburojevic/xcbolt/releases/download/v0.1.42/xcbolt_0.1.42_darwin_amd64.tar.gz"
+    sha256 "77fa3b91ac7b4bbea52cb551f80ae378e588820e8b7e7b7fa7c916c1ceb92e49"
 
     def install
       bin.install "xcbolt"
     end
   end
   if Hardware::CPU.arm?
-    url "https://github.com/vburojevic/xcbolt/releases/download/v0.1.41/xcbolt_0.1.41_darwin_arm64.tar.gz"
-    sha256 "8371607cdeede9c3fed36e3433c178ca713cd236b37865e21b4b47020ba72c55"
+    url "https://github.com/vburojevic/xcbolt/releases/download/v0.1.42/xcbolt_0.1.42_darwin_arm64.tar.gz"
+    sha256 "6c1c226b1a128e20f3750bdb95c2057fe6dd6eda31096a43306f32f9156e7967"
 
     def install
       bin.install "xcbolt"
