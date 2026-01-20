@@ -4,8 +4,8 @@
 class InstapaperCli < Formula
   desc "Dependency-free Instapaper CLI"
   homepage "https://github.com/vburojevic/instapaper-cli"
-  url "https://github.com/vburojevic/instapaper-cli/archive/refs/tags/v0.2.6.tar.gz"
-  sha256 "6d7362ead95c68119fe6156b32db2fa50f98322d413f98dc6a402ae851d1c73a"
+  url "https://github.com/vburojevic/instapaper-cli/archive/refs/tags/v0.2.7.tar.gz"
+  sha256 "5a43405fb52999cc3a3c03273503fe8b93e4f4c467006f17dae18272d0324f7e"
   license "MIT"
 
   depends_on "go" => :build
