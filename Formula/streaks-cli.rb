@@ -1,8 +1,8 @@
 class StreaksCli < Formula
   desc "CLI for Streaks (Crunchy Bagel)"
   homepage "https://github.com/vburojevic/streaks-cli"
-  url "https://github.com/vburojevic/streaks-cli/archive/refs/tags/v0.3.4.tar.gz"
-  sha256 "ff6199f54e8d0c6368eec17bd81048cbbb7a0a76a7b8e75d29e42433098c77bd"
+  url "https://github.com/vburojevic/streaks-cli/archive/refs/tags/v0.3.5.tar.gz"
+  sha256 "4668c420e9998ee49e15a6a1700af7187eaf51442f8940e0b1d3427529afa36f"
   license "MIT"
 
   depends_on "go" => :build
