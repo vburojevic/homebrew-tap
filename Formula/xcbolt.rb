@@ -11,7 +11,7 @@ class Xcbolt < Formula
 
   if Hardware::CPU.intel?
     url "https://github.com/vburojevic/xcbolt/releases/download/v0.1.46/xcbolt_0.1.46_darwin_amd64.tar.gz"
-    sha256 "5b30b685642ab89e15909075391e679231eac1916c27c73842b26390714ab6f7"
+    sha256 "a234e835172962d994b0f1d688247a26d85d25df61a738c74e23e7d87515403d"
 
     def install
       bin.install "xcbolt"
@@ -19,7 +19,7 @@ class Xcbolt < Formula
   end
   if Hardware::CPU.arm?
     url "https://github.com/vburojevic/xcbolt/releases/download/v0.1.46/xcbolt_0.1.46_darwin_arm64.tar.gz"
-    sha256 "df8b029b84fba208ef3ce7b72615fa79a35b281900fabce194f6050ca54d1825"
+    sha256 "98979a9b6d07099bc15f37f6ae5334611ef03a1b47a79489df88406f7de029bd"
 
     def install
       bin.install "xcbolt"
