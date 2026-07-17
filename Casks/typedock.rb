@@ -7,7 +7,7 @@ cask "typedock" do
   desc "Snippet expansion and clipboard manager in one library"
   homepage "https://typedock.app/"
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "TypeDock.app"
 
